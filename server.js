@@ -20,9 +20,9 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use((req, res, next) =>{
-  res.render('maintenance.hbs');
-});
+// app.use((req, res, next) =>{
+//   res.render('maintenance.hbs');
+// });
 
 // register helper funtions
 hbs.registerHelper('getCurrentYear', () => {
